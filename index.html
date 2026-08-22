@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Devam Surti portfolio - developer projects, skills, and contact links."
+    />
+    <title>Devam Surti | Developer Portfolio</title>
+    <link rel="preconnect" href="https://avatars.githubusercontent.com" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Devam Surti home">
+        <span class="brand-mark">DS</span>
+        <span>Devam Surti</span>
+      </a>
+      <nav class="nav-links" aria-label="Portfolio sections">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-action" href="https://github.com/surtidevam20022007-beep" target="_blank" rel="noreferrer">
+        <i data-lucide="github" aria-hidden="true"></i>
+        GitHub
+      </a>
+    </header>
+
+    <main id="home">
+      <section class="hero section-band">
+        <div class="hero-copy">
+          <p class="eyebrow">Developer portfolio</p>
+          <h1>Devam Surti</h1>
+          <p class="hero-lede">
+            I build student-focused, practical web projects across AI tools, health-tech dashboards,
+            and service platforms, with a growing stack in TypeScript, JavaScript, Python, and modern web UI.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="btn primary" href="#projects">
+              <i data-lucide="briefcase-business" aria-hidden="true"></i>
+              View projects
+            </a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/devam-surti-09507a37b" target="_blank" rel="noreferrer">
+              <i data-lucide="linkedin" aria-hidden="true"></i>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <aside class="profile-panel" aria-label="Profile summary">
+          <img
+            class="avatar"
+            src="https://avatars.githubusercontent.com/u/230367955?v=4"
+            alt="Devam Surti GitHub avatar"
+          />
+          <div>
+            <p class="panel-kicker">GitHub</p>
+            <h2>surtidevam20022007-beep</h2>
+          </div>
+          <dl class="stats-grid" aria-label="GitHub profile stats">
+            <div>
+              <dt>Public repos</dt>
+              <dd id="repoCount">6</dd>
+            </div>
+            <div>
+              <dt>Main focus</dt>
+              <dd>Web + AI</dd>
+            </div>
+            <div>
+              <dt>Languages</dt>
+              <dd>TS / JS / Python</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section-wrap intro-grid" aria-label="Portfolio overview">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Curious builder with a hands-on project trail.</h2>
+        </div>
+        <p>
+          My work shows a practical learning path: shipping interfaces, experimenting with AI-assisted
+          evaluation, building health record experiences, and solving programming assignments in Python.
+          I like turning ideas into working demos that are easy for other people to understand and try.
+        </p>
+      </section>
+
+      <section class="section-wrap" id="projects">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2>Projects</h2>
+          </div>
+          <a class="text-link" href="https://github.com/surtidevam20022007-beep?tab=repositories" target="_blank" rel="noreferrer">
+            All repositories
+            <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card accent-green">
+            <div class="card-topline">
+              <span>AI Tool</span>
+              <i data-lucide="sparkles" aria-hidden="true"></i>
+            </div>
+            <h3>AI Hackathon Judge</h3>
+            <p>
+              An AI-powered project evaluator with an immersive interface that analyzes submissions,
+              scores ideas, and suggests improvements for student hackathon teams.
+            </p>
+            <div class="tags" aria-label="Technologies">
+              <span>AI</span>
+              <span>3D UI</span>
+              <span>Student tools</span>
+            </div>
+            <a href="https://github.com/surtidevam20022007-beep/AI-HACKATHON-JUDGE" target="_blank" rel="noreferrer">
+              Open repository
+              <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project-card accent-coral">
+            <div class="card-topline">
+              <span>Service Platform</span>
+              <i data-lucide="route" aria-hidden="true"></i>
+            </div>
+            <h3>RoadRescue Project</h3>
+            <p>
+              A JavaScript web project for roadside assistance workflows, with a live GitHub Pages
+              deployment and a clear emergency-service use case.
+            </p>
+            <div class="tags" aria-label="Technologies">
+              <span>JavaScript</span>
+              <span>GitHub Pages</span>
+              <span>UX</span>
+            </div>
+            <a href="https://surtidevam20022007-beep.github.io/RoadRescue_Project_1/" target="_blank" rel="noreferrer">
+              View live site
+              <i data-lucide="external-link" aria-hidden="true"></i>
+            </a>
+          </article>
+
+          <article class="project-card accent-blue">
+            <div class="card-topline">
+              <span>Health Tech</span>
+              <i data-lucide="heart-pulse" aria-hidden="true"></i>
+            </div>
+            <h3>Health Record Hub</h3>
+            <p>
+              A TypeScript health-record experience hosted on Vercel, built around making patient data
+              access and organization feel cleaner.
+            </p>
+            <div class="tags" aria-label="Technologies">
+              <span>TypeScript</span>
+              <span>Vercel</span>
+              <span>Dashboard</span>
+            </div>
+            <a href="https://health-record-hub-weld.vercel.app" target="_blank" rel="noreferrer">
+              View live app
+              <i data-lucide="external-link" aria-hidden="true"></i>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-band skills-band" id="skills">
+        <div class="section-wrap skills-layout">
+          <div>
+            <p class="eyebrow">Toolkit</p>
+            <h2>Skills shaped by real projects.</h2>
+            <p>
+              The current portfolio highlights frontend development, project thinking, deployment,
+              and early AI-product experimentation.
+            </p>
+          </div>
+          <div class="skill-list" aria-label="Skills">
+            <span><i data-lucide="code-2" aria-hidden="true"></i> HTML / CSS / JavaScript</span>
+            <span><i data-lucide="braces" aria-hidden="true"></i> TypeScript</span>
+            <span><i data-lucide="terminal" aria-hidden="true"></i> Python</span>
+            <span><i data-lucide="layout-dashboard" aria-hidden="true"></i> Responsive UI</span>
+            <span><i data-lucide="rocket" aria-hidden="true"></i> GitHub Pages / Vercel</span>
+            <span><i data-lucide="bot" aria-hidden="true"></i> AI-assisted products</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrap" id="contact">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something useful.</h2>
+            <p>
+              Explore the code, connect on LinkedIn, or use this portfolio as the starting point for
+              internships, collaborations, and project demos.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="btn primary" href="https://github.com/surtidevam20022007-beep" target="_blank" rel="noreferrer">
+              <i data-lucide="github" aria-hidden="true"></i>
+              GitHub profile
+            </a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/devam-surti-09507a37b" target="_blank" rel="noreferrer">
+              <i data-lucide="linkedin" aria-hidden="true"></i>
+              LinkedIn profile
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Devam Surti</span>
+      <span>Built for GitHub Pages</span>
+    </footer>
+  </body>
+</html>
