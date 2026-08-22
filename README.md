@@ -33,5 +33,5 @@ npx serve .
 The site will be available at:
 
 ```text
-https://surtidevam20022007-beep.github.io/devam-surti-portfolio/
+https://surtidevam20022007-beep.github.io/Portfolio/
 ```
